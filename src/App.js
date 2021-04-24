@@ -2,7 +2,16 @@ import logo from './logo.svg';
 import './App.css'
 import './bootstrap-css/css/bootstrap.css'
 import StarWars from './Components/MyItem'
-function App() {
+
+function App(){
+  return (
+    <div className="container-fluid p-0 main">
+      <StarWars />
+    </div>
+  )
+}
+
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -16,7 +25,7 @@ function App() {
       </header>
     </div>
   );
-}
+}*/
 
 /*function HelloWorld(){
   return (
